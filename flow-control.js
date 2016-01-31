@@ -32,7 +32,6 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-  debugger;
   switch(age) {
     case 13:
     case 14:
@@ -44,6 +43,6 @@ function switchAge(age) {
       return "You are a teenager";
       break;
     default: 
-      return "You are not a teenager";
+      return "You have an age"
   }
 }
