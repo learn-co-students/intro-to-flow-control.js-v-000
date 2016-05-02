@@ -29,7 +29,7 @@ Now, in `flow-control.js` let's write a function `basicTeenager` that accepts an
 ## If/Else Statements
 
 You will often see an `If` statement used in combination with an  `else` clause. An `else` clause is a fallback to an `if` statement and will only get executed if the previous `if` statement is false.
-    
+
 Syntax:
 
 ```javascript
@@ -44,7 +44,7 @@ if (conditionToTestIsTrue) {
 
 ## If/Else If Statements
 
-`if` statements can also be combined with an `else if` clause. This is like an else statement, but with its own condition. It will only run if its condition is true, and the previous statement's condition was false. 
+`if` statements can also be combined with an `else if` clause. This is like an else statement, but with its own condition. It will only run if its condition is true, and the previous statement's condition was false.
 
 Note: An important thing to keep in mind when transitioning to JavaScript from Ruby is that the `elsif` becomes two full words: `else if`.
 
@@ -69,7 +69,7 @@ The ternary operator is used as a shortcut for the `if-else` statement. You've p
 ```ruby
 cart = ["graphic t-shirt", "aluminum water bottle"]
 
-puts cart.empty? ? "Please add something to your cart." : "You're ready to check out." 
+puts cart.empty? ? "Please add something to your cart." : "You're ready to check out."
 
 # Above prints:
 # You're ready to check out.
@@ -122,13 +122,13 @@ switch(mood){
   case "hungry":
     console.log("You should eat a big chocolate cake");
     break;
-  default: 
+  default:
     console.log("That's not a mood we support");
 }
 ```
 
 In the example above, we'll see `"You should eat a big chocolate cake"` printed to the console. If we change the value of the `mood` variable to `sad` you'll see `"You should eat a pint of icecream"`. If the value of `mood` changed to `"grumpy"`, the default statement would trigger and print out `"That's not a mood we support"`.
-  
+
 + Define a function `switchAge` that accepts an age as a parameter. The case statement should switch on `age` and return `"You are a teenager"` if the age is 13, 14, 15, 16, 17, 18, or 19, and return `"You have an age"` as the default.
 
 
