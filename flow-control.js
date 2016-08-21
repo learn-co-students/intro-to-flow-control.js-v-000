@@ -27,7 +27,7 @@ function ageChecker(age){
   }
 
   else {
-    return "You a grownup";
+    return "You are a grownup";
 
  };
 
