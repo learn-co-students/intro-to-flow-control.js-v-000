@@ -18,8 +18,8 @@ describe('Flow Control Basics', function() {
       expect(teenager(13)).toBe("You are a teenager!");
     });
     it('should return "you are not a teenager" if the age is not between 13-19', function(){
-      expect(teenager(12)).toBe("You are not a teenager");
-      expect(teenager(29)).toBe("You are not a teenager");
+      expect(teenager(12)).toBe("you are not a teenager");
+      expect(teenager(29)).toBe("you are not a teenager");
     });
 
   });
